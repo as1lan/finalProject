@@ -1,0 +1,140 @@
+header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .justify-content-lg-start {
+    justify-content: flex-start;
+  }
+  
+  .link-body-emphasis {
+    color: #007bff;
+  }
+  
+  .text-decoration-none {
+    text-decoration: none;
+  }
+  
+  .bi {
+    fill: currentColor;
+    vertical-align: text-bottom;
+  }
+  
+  .me-2 {
+    margin-right: 0.5rem;
+  }
+  
+  .nav {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  .nav-link {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    background-color: transparent;
+    border: none;
+    text-align: inherit;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  .text-small {
+    font-size: 0.875rem;
+  }
+  
+.list {
+  float: left;
+  width: 100%;
+  background-color: rgba(192, 192, 192, 0.2);
+  border: 1px solid silver;
+  border-radius: 8px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 8px;
+}
